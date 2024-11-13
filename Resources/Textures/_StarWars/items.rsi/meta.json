@@ -1,0 +1,65 @@
+{
+   "version": 1,
+   "size": {
+     "x": 32,
+     "y": 32
+   },
+   "license": "CC-BY-SA-3.0",
+   "copyright": "Taken from CMSS13",
+   "states": [
+     {
+       "name": "console",
+       "delays": [
+        [
+          0.3,
+          0.3
+        ]
+      ]
+     },
+     {
+      "name": "console1",
+      "delays": [
+       [
+         0.3,
+         0.3
+       ]
+     ]
+    },
+    {
+      "name": "generator",
+      "delays": [
+       [
+         0.3,
+         0.3
+       ]
+     ]
+    },
+    {
+      "name": "generator2",
+      "delays": [
+       [
+         0.3,
+         0.3
+       ]
+     ]
+    },
+    {
+      "name": "tacmap",
+      "delays": [
+       [
+         0.3,
+         0.3
+       ]
+     ]
+    },
+    {
+      "name": "tacmap3",
+      "delays": [
+       [
+         0.3,
+         0.3
+       ]
+     ]
+    }
+   ]
+ }

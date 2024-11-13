@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "CMSS13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "defense_base"
+    },
+    {
+      "name": "defense_base_off"
+    },
+    {
+      "name": "defense_base_off2"
+    },
+    {
+      "name": "defense_base2"
+    },
+    {
+      "name": "dmr_uac_sentry"
+    },
+    {
+      "name": "dmr_uac_sentry_destroyed"
+    },
+    {
+      "name": "dmr_uac_sentry_handheld"
+    },
+    {
+      "name": "dmr_uac_sentry_noammo"
+    },
+    {
+      "name": "dmr_uac_sentry_on"
+    },
+    {
+      "name": "iconturrets"
+    },
+    {
+      "name": "iconturretss"
+    },
+    {
+      "name": "mini_uac_sentry"
+    },
+    {
+      "name": "mini_uac_sentry_handheld"
+    },
+    {
+      "name": "mini_uac_sentry_no_ammo"
+    },
+    {
+      "name": "mini_uac_sentry_on"
+    },
+    {
+      "name": "turrets"
+    },
+    {
+      "name": "turretsdroid"
+    }
+  ]
+}

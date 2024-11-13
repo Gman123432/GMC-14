@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "medical_uniform",
+      "directions": 4
+    },
+    {
+      "name": "ensign_uniform",
+      "directions": 4
+    },
+    {
+      "name": "black_bodyglove",
+      "directions": 4
+    },
+    {
+      "name": "admiral_uniform",
+      "directions": 4
+    },
+    {
+      "name": "jedi_tunic0",
+      "directions": 4
+    },
+    {
+      "name": "jedi_tunic1",
+      "directions": 4
+    },
+    {
+      "name": "sith_tunic0",
+      "directions": 4
+    },
+    {
+      "name": "sith_tunic1",
+      "directions": 4
+    },
+    {
+      "name": "vader_suit0",
+      "directions": 4
+    },
+    {
+      "name": "marine_jumpsuit",
+      "directions": 4
+    },
+    {
+      "name": "marine_engineer",
+      "directions": 4
+    },
+    {
+      "name": "marine_medic",
+      "directions": 4
+    },
+    {
+      "name": "gm_bodyglove",
+      "directions": 4
+    },
+    {
+      "name": "coldassault_bodyglove",
+      "directions": 4
+    }
+  ]
+}

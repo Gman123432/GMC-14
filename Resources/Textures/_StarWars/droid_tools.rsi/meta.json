@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "droid_saw"
+    },
+    {
+      "name": "droid_grasper"
+    },
+    {
+      "name": "droid_interface"
+    },
+    {
+      "name": "droid_fusioncutter",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+   "version": 1,
+   "size": {
+     "x": 32,
+     "y": 32
+   },
+   "license": "CC-BY-SA-3.0",
+   "copyright": "Taken from https://github.com/Odisurin/Star-Wars-Legends-13",
+   "states": [
+    {
+     "name": "b1",
+     "directions": 4
+    },
+    {
+      "name": "b2",
+      "directions": 4
+    },
+    {
+      "name": "B2Superlaser",
+      "directions": 4
+    },
+    {
+      "name": "commando",
+      "directions": 4
+    },
+    {
+      "name": "tankdroid",
+      "directions": 4
+    },
+    {
+      "name": "droideka",
+      "directions": 4
+    },
+    {
+      "name": "miner_e",
+      "directions": 4
+    },
+    {
+      "name": "miner_e_r",
+      "directions": 4
+    },
+    {
+      "name": "miner_l",
+      "directions": 4
+    },
+    {
+      "name": "b1_superpilot",
+      "directions": 4
+    },
+    {
+      "name": "b1_pilot",
+      "directions": 4
+    },
+    {
+      "name": "b1_guard",
+      "directions": 4
+    },
+    {
+      "name": "b1_engi",
+      "directions": 4
+    },
+    {
+      "name": "b1_comman",
+      "directions": 4
+    }
+   ]
+ }

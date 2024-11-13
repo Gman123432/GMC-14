@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "boots",
+      "directions": 4
+    },
+    {
+      "name": "coldassault_boots",
+      "directions": 4
+    },
+    {
+      "name": "gm_boots",
+      "directions": 4
+    },
+    {
+      "name": "gmb_boots",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ensign_cap",
+      "directions": 4
+    },
+    {
+      "name": "medical_cap",
+      "directions": 4
+    },
+    {
+      "name": "phase2_helmet",
+      "directions": 4
+    },
+    {
+      "name": "airborne_helmet",
+      "directions": 4
+    },
+    {
+      "name": "arf_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_pilot_helmet",
+      "directions": 4
+    },
+    {
+      "name": "commando_helmet",
+      "directions": 4
+    },
+    {
+      "name": "storm_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_sgt_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_lt_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_captain_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_cmdr_helmet",
+      "directions": 4
+    },
+    {
+      "name": "phase1_sec_helmet",
+      "directions": 4
+    },
+    {
+      "name": "admiral_cap",
+      "directions": 4
+    },
+    {
+      "name": "501st_helmet",
+      "directions": 4
+    },
+    {
+      "name": "212th_helmet",
+      "directions": 4
+    },
+    {
+      "name": "dart_v",
+      "directions": 4
+    }
+  ]
+}

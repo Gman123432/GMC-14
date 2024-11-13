@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pilot_armor",
+      "directions": 4
+    },
+    {
+      "name": "commando_armor",
+      "directions": 4
+    },
+    {
+      "name": "storm_armor",
+      "directions": 4
+    },
+    {
+      "name": "clone_cmdr_armor",
+      "directions": 4
+    },
+    {
+      "name": "clone_securitypii_armor",
+      "directions": 4
+    },
+    {
+      "name": "501st_armor",
+      "directions": 4
+    },
+    {
+      "name": "212th_armor",
+      "directions": 4
+    },
+    {
+      "name": "jedi_robe0",
+      "directions": 4
+    },
+    {
+      "name": "sith_robe0",
+      "directions": 4
+    },
+    {
+      "name": "jedi_robe1",
+      "directions": 4
+    },
+    {
+      "name": "sith_robe1",
+      "directions": 4
+    },
+    {
+      "name": "442nd_armor",
+      "directions": 4
+    },
+    {
+      "name": "clone_securitypi_armor",
+      "directions": 4
+    },
+    {
+      "name": "clone_armor",
+      "directions": 4
+    },
+    {
+      "name": "lieutenant1",
+      "directions": 4
+    },
+    {
+      "name": "captain1",
+      "directions": 4
+    },
+    {
+      "name": "commander1",
+      "directions": 4
+    },
+    {
+      "name": "clone_sgt_armor",
+      "directions": 4
+    },
+    {
+      "name": "sergeant1",
+      "directions": 4
+    }
+  ]
+}

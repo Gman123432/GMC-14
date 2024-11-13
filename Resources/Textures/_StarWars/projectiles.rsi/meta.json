@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "https://github.com/Odisurin/Star-Wars-Legends-13/",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "ctibanna_bolt",
+      "directions": 4
+    },
+    {
+      "name": "plasma_bolt",
+      "directions": 4
+    },
+    {
+      "name": "etibanna_bolt",
+      "directions": 4
+    },
+    {
+      "name": "accuracy_bolt",
+      "directions": 4
+    },
+    {
+      "name": "ctibanna_dualbolt",
+      "directions": 4
+    }
+  ]
+}
