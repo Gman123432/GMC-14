@@ -1,0 +1,135 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakclonekama
+  name: Полуплащ клона
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/clone_kama.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakcoldassaultkama
+  name: Серый полуплащ клона
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/coldassault_kama.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakcoldassaultpauldron
+  name: Плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/coldassault_pauldron.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakgmkama
+  name: Красный полуплащ клона
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/gm_kama.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakgmpauldron
+  name: Испорченные плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/gm_pauldron.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrond
+  name: Серые плечевые ремни 
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_d.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrondb
+  name: Плечевые ремни лейтенанта
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_d_b.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrondg
+  name: Зеленые плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_d_g.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrondr
+  name: плечевые ремни капитана
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_d_r.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrondy
+  name: плечевые ремни командира
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_d_y.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrong
+  name: Зеленые односторонние плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_g.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldrons
+  name: Серые односторонние плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_s.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldronsb
+  name: Синие односторонние плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_s_b.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldronsr
+  name: Красные односторонние плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_s_r.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakpauldronsy
+  name: Желтые односторонние плечевые ремни
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pauldron_s_y.rsi
+ 
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloaksithrobe0
+  name: Плащ ситха
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/sith_robe0.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakjedirobe0
+  name: Плащ джедая
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/jedi_robe0.rsi

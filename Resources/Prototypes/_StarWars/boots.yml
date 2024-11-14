@@ -1,0 +1,39 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsboots
+  name: Белые ботинки
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/boots.rsi
+  - type: Clothing
+    sprite: _StarWars/clothing/boots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootscoldassault
+  name: Усовершенствованные штурмовые ботинки
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/coldassault_boots.rsi
+  - type: Clothing
+    sprite: _StarWars/clothing/coldassault_boots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsgmboots
+  name: Штурмовые ботинки
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/gm_boots.rsi
+  - type: Clothing
+    sprite: _StarWars/clothing/gm_boots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsgmbboots
+  name: Черные штурмовые ботинки
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/gmb_boots.rsi
+  - type: Clothing
+    sprite: _StarWars/clothing/gmb_boots.rsi

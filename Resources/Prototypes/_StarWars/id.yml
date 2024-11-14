@@ -1,0 +1,511 @@
+- type: entity
+  parent: Clothing
+  id: SWIDCardBase
+  name: identification holo-badge
+  description: A slice of encoded compressed fiber glass. Used for identification and access control.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/CMIDs/id.rsi
+    state: plain
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _RMC14/Objects/CMIDs/id.rsi
+  - type: Item
+    size: Small
+    heldPrefix: default
+  - type: Access
+  - type: IdCard
+    nameLocId: cm-access-id-card-component-owner-name-job-title-text
+    fullNameLocId: cm-access-id-card-component-owner-full-name-job-title-text
+    canMicrowave: false
+  - type: StationRecordKeyStorage
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: ItemIFF
+    faction: FactionMarine
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardadmiralcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/admiral_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/admiral_card.rsi
+
+- type: entity
+  parent: SWIDCardadmiralcard
+  id: SWIDSWIDCardadmiralcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardb1card
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/b1_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/b1_card.rsi
+
+- type: entity
+  parent: SWIDCardb1card
+  id: SWIDSWIDCardb1card
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardb1captaincard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/b1captain_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/b1captain_card.rsi
+
+- type: entity
+  parent: SWIDCardb1captaincard
+  id: SWIDSWIDCardb1captaincard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardb1engineercard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/b1engineer_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/b1engineer_card.rsi
+
+- type: entity
+  parent: SWIDCardb1engineercard
+  id: SWIDSWIDCardb1engineercard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardb1securitycard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/b1security_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/b1security_card.rsi
+
+- type: entity
+  parent: SWIDCardb1securitycard
+  id: SWIDSWIDCardb1securitycard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardb2card
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/b2_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/b2_card.rsi
+
+- type: entity
+  parent: SWIDCardb2card
+  id: SWIDSWIDCardb2card
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardcaptaincard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/captain_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/captain_card.rsi
+
+- type: entity
+  parent: SWIDCardcaptaincard
+  id: SWIDSWIDCardcaptaincard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardcmdodroidcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/cmdo_droid_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/cmdo_droid_card.rsi
+
+- type: entity
+  parent: SWIDCardcmdodroidcard
+  id: SWIDSWIDCardcmdodroidcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardcommandercard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/commander_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/commander_card.rsi
+
+- type: entity
+  parent: SWIDCardcommandercard
+  id: SWIDSWIDCardcommandercard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardengineercard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/engineer_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/engineer_card.rsi
+
+- type: entity
+  parent: SWIDCardengineercard
+  id: SWIDSWIDCardengineercard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardensigncard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/ensign_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/ensign_card.rsi
+
+- type: entity
+  parent: SWIDCardensigncard
+  id: SWIDSWIDCardensigncard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardjediholocron
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/jedi_holocron.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/jedi_holocron.rsi
+
+- type: entity
+  parent: SWIDCardjediholocron
+  id: SWIDSWIDCardjediholocron
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardlieutenantard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/lieutenant_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/lieutenant_card.rsi
+
+- type: entity
+  parent: SWIDCardlieutenantard
+  id: SWIDSWIDCardlieutenantard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardmediccard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/medic_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/medic_card.rsi
+
+- type: entity
+  parent: SWIDCardmediccard
+  id: SWIDSWIDCardmediccard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardmedicalofficercard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/medicalofficer_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/medicalofficer_card.rsi
+
+- type: entity
+  parent: SWIDCardmedicalofficercard
+  id: SWIDSWIDCardmedicalofficercard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardpilotcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/pilot_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/pilot_card.rsi
+
+- type: entity
+  parent: SWIDCardpilotcard
+  id: SWIDSWIDCardpilotcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardsergeantcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/sergeant_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/sergeant_card.rsi
+
+- type: entity
+  parent: SWIDCardsergeantcard
+  id: SWIDSWIDCardsergeantcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardsithholocron
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/sith_holocron.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/sith_holocron.rsi
+
+- type: entity
+  parent: SWIDCardsithholocron
+  id: SWIDSWIDCardsithholocron
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardtacticalcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/tactical_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/tactical_card.rsi
+
+- type: entity
+  parent: SWIDCardtacticalcard
+  id: SWIDSWIDCardtacticalcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardtroopercard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/trooper_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/trooper_card.rsi
+
+- type: entity
+  parent: SWIDCardtroopercard
+  id: SWIDSWIDCardtroopercard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: SWIDCardBase
+  id: SWIDCardunassignedcard
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _StarWars/clothing/unassigned_card.rsi
+    state: silver
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _StarWars/clothing/unassigned_card.rsi
+
+- type: entity
+  parent: SWIDCardunassignedcard
+  id: SWIDSWIDCardunassignedcard
+  name: chief engineer ID card
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer

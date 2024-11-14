@@ -4,14 +4,9 @@
   name: Униформа Адмирала
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: admiral_uniform
+    sprite: _StarWars/clothing/adminral_unifrom.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: admiral_uniform
+    sprite: _StarWars/clothing/adminral_unifrom.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -19,14 +14,9 @@
   name: Чёрное термобелье
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: black_bodyglove
+    sprite: _StarWars/clothing/black_bodyglove.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: black_bodyglove
+    sprite: _StarWars/clothing/black_bodyglove.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -34,14 +24,9 @@
   name: Штурмовое термобелье
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: coldassault_bodyglove
+    sprite: _StarWars/clothing/coldassault_bodyglove.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: coldassault_bodyglove
+    sprite: _StarWars/clothing/coldassault_bodyglove.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -49,14 +34,9 @@
   name: Униформа прапорщика
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: ensign_uniform
+    sprite: _StarWars/clothing/ensign_uniform.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: ensign_uniform
+    sprite: _StarWars/clothing/ensign_uniform.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -64,14 +44,9 @@
   name: Зеленое термобелье
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: gm_bodyglove
+    sprite: _StarWars/clothing/gm_bodyglove.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: gm_bodyglove
+    sprite: _StarWars/clothing/gm_bodyglove.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -79,14 +54,9 @@
   name: Туника джедая
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: jedi_tunic0
+    sprite: _StarWars/clothing/jedi_tunic0.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: jedi_tunic0
+    sprite: _StarWars/clothing/jedi_tunic0.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -94,14 +64,9 @@
   name: Туника джедая
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: jedi_tunic1
+    sprite: _StarWars/clothing/jedi_tunic1.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: jedi_tunic1
+    sprite: _StarWars/clothing/jedi_tunic1.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -109,14 +74,9 @@
   name: Комбинезон инженера
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: marine_engineer
+    sprite: _StarWars/clothing/marine_engineer.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: marine_engineer
+    sprite: _StarWars/clothing/marine_engineer.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -124,14 +84,9 @@
   name: Серый Комбинезон 
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: marine_jumpsuit
+    sprite: _StarWars/clothing/marine_jumpsuit.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: marine_jumpsuit
+    sprite: _StarWars/clothing/marine_jumpsuit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -139,14 +94,9 @@
   name: Комбинезон медика
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: marine_medic
+    sprite: _StarWars/clothing/marine_medic.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: marine_medic
+    sprite: _StarWars/clothing/marine_medic.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -154,14 +104,9 @@
   name: Униформа старшего медика
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: medical_uniform
+    sprite: _StarWars/clothing/medical_uniform.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: medical_uniform
+    sprite: _StarWars/clothing/medical_uniform.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -169,14 +114,9 @@
   name: Туник ситха
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: sith_tunic0
+    sprite: _StarWars/clothing/sith_tunic0.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: sith_tunic0
+    sprite: _StarWars/clothing/sith_tunic0.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -184,11 +124,6 @@
   name: Туник ситха
   components:
   - type: Sprite
-    sprite: Textures/_StarWars/uniform_0.rsi
-    layers:
-    - state: sith_tunic1
+    sprite: _StarWars/clothing/sith_tunic1.rsi
   - type: Clothing
-    sprite: Textures/_StarWars/unifrom.rsi
-    clothingVisuals:
-      shoes:
-      - state: sith_tunic1
+    sprite: _StarWars/clothing/sith_tunic1.rsi

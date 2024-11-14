@@ -72,10 +72,9 @@
     temperature: 700
 
 - type: entity
-  name: double-bladed energy sword
-  parent: [BaseMeleeWeaponEnergySword, BaseSyndicateContraband]
-  id: EnergySwordDoubleSW
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  name: Энергетическое копье
+  parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
+  id: EnergySwordSW
   components:
   - type: ItemToggle
     onUse: false # wielding events control it instead
@@ -120,16 +119,16 @@
       types:
         Blunt: 4.5
   - type: Sprite
-    sprite: /Textures/_StarWars/gun_2.rsi
+    sprite: _StarWars/clothing/e_sword_double.rsi
     layers:
-      - state: EStaff Off In-Slot
-      - state: EStaff On In-Slot
+      - state: e_sword_double
+      - state: e_sword_double_blade
         visible: false
         shader: unshaded
         map: [ "blade" ]
   - type: Item
     size: Small
-    sprite: /Textures/_StarWars/gun_2.rsi
+    sprite: _StarWars/clothing/e_sword_double-inhands.rsi
   - type: Reflect
     reflectProb: .75
     spread: 75
